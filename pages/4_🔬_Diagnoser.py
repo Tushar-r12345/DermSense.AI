@@ -2,10 +2,6 @@ import collections
 import streamlit as st
 from PIL import Image
 import numpy as np
-import torch
-import torch.nn as nn
-import torchvision.transforms as transforms
-from pdfdocument.document import PDFDocument
 import base64
 from io import BytesIO
 from pathlib import Path
